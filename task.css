@@ -1,0 +1,197 @@
+/*  
+I was assisted by various websites and many prompts in chatgpt for the completion of this task, as well as my colleague Ryan
+
+References:
+https://lcpshop.net/product/telescope-for-phone-camera-zoom-lens/?msclkid=82460f21673b193603456b5cd3bf1ebb
+
+https://www.fruugo.co.za/4drc-drone-with-1080p-hd-camera-for-adults-beginnersfor-kids-2-batteries/p-154915411-328200149
+
+https://geegazstore.com/universal-wireless-game-controller/
+
+https://lcpshop.net/product/hifi-wireless-noise-cancelling-bluetooth-headphones/
+
+https://lcpshop.net/product/car-stereo-bluetooth-system/?msclkid=40f7038a41f915e1d44467f7834c6ced
+
+https://www.pricecheck.co.za/offers/221252729/Logitech+Vc+Webcam+C920+HD+Pro+USB+Full+HD+10MP+Carl+Zeis+Lens+20+Step+Autofocus+Microphone+With+Noise+Reduction+With+Tripod
+
+https://www.pricecheck.co.za/offers/212294052/12+In+1+USB+Type-c+Multi+Function+Docking+Station+-+Dual+HDMI+Output
+
+https://lcpshop.net/product/bluetooth-smartwatch-multipurpose-watch/?msclkid=eaf2cc8552ae13e375b9a8f8948af820
+
+https://lcpshop.net/product/fast-charging-universal-usb-multi-charger-cable/
+
+https://lcpshop.net/product/portable-game-console-retro-device/?msclkid=f38a30a80c0b1bfc7bc054d5c2b979e4 
+
+https://www.w3docs.com/snippets/html/how-to-align-labels-next-to-inputs.html
+*/
+
+/* smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* add background image */
+.bg-image {
+    background-image: url(gadgets-bright-round-vector-14050625.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* overlay background image for clear display of content */
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.48);
+    z-index: 1;
+}
+
+/* position content and select font for content text */
+.content {
+    position: relative;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 2;
+    font-family: Roboto;
+}
+
+/* center content for each row */
+.row {
+    text-align: center;
+}
+
+/* position logo and slogan */
+.col-md-2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+/* position content for rows under logo and slogan */
+.col-md-3 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+/* adjust position of logo and add rounded border */
+#logo {
+    margin-inline-start: 30px;
+    height: 100px;
+    width: 100px;
+    border: solid aliceblue;
+    border-radius: 10px;
+    float: left;
+}
+
+/* adjust position of slogan */
+#slogan {
+    font-size: 90px;
+    text-align: left;
+    font-style: oblique;
+    font-family: Roboto;
+    color: aliceblue;
+    padding-top: 15px;
+    padding-left: 110px;
+}
+
+/* position product image and add border */
+img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid aliceblue;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/* enlarge product image when hovering */
+img:hover {
+    height: 300px;
+    width: 300px
+}
+
+/* align labels for input */
+.row label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+/* align input boxes */
+.row input {
+    width: 50%;
+    clear: both;
+    background-color: rgba(240, 248, 255, 0.35);
+    color: aliceblue;
+    border-radius: 5px;
+    margin-right: 0;
+}
+
+/* position subscribe button */
+.content .subscribe {
+    margin-left: 358px;
+    width: 50%;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+/* position Back To Top link */
+.content h5 {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+/* position and adjust Buy button border */
+.content .buy {
+    width: 100px;
+    margin-inline-start: 55px;
+    margin-right: 148px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+/* position price with 5 digits */
+.content .price_5 {
+    margin-inline-start: 0px;
+    margin-right: 90px;
+}
+
+/* position price with 6 digits */
+.content .price_6 {
+    margin-inline-start: 0px;
+    margin-right: 80px;
+}
+
+/* change color of link */
+:any-link {
+    color: aliceblue;
+}
+
+/* make product name bold */
+.product {
+    font-weight: bold;
+}
+
+/* position logo next to form */
+.row .s_logo {
+    width: 180px;
+    height: 180px;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+
+/* position slogan under logo next to form */
+.row .s_slogan {
+    margin-right: 202px;
+    font-size: large;
+    font-style: italic;
+}
